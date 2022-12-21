@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e843ea-8401-475b-84c0-52a37d845d50" name="Changes" comment="Develop">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PropTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servicer/WaitsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicer/WaitsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/ReadProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/sony/IdeaProjects/Diploma/src/test/java/tests",
+    "last_opened_file_path": "C:/Users/sony/IdeaProjects/Diploma/src/test/java/steps",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -67,10 +61,10 @@
       <recent name="baseEntities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sony\IdeaProjects\Diploma\src\test\java\tests" />
       <recent name="C:\Users\sony\IdeaProjects\Diploma\src\test\java\steps" />
       <recent name="C:\Users\sony\IdeaProjects\Diploma\src\test\java\pages" />
       <recent name="C:\Users\sony\IdeaProjects\Diploma\src\test\java\baseEntities" />
+      <recent name="C:\Users\sony\IdeaProjects\Diploma\src\test\java\tests" />
       <recent name="C:\Users\sony\IdeaProjects\Diploma\src\main\java\servicer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -80,31 +74,14 @@
       <recent name="C:\Users\sony\IdeaProjects\Diploma\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
       <recent name="steps" />
       <recent name="baseEntities" />
       <recent name="configuration" />
       <recent name="servicer" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelenideTest.openLoginPageTest">
-    <configuration name="CheckoutTest.successCheckoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Diploma" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CheckoutTest" />
-      <option name="METHOD_NAME" value="successCheckoutTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SelenideTest.openLoginPageTest1">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Diploma" />
       <extension name="coverage">
@@ -175,13 +152,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelenideTest.openLoginPageTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Diploma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SelenideTest" />
+      <option name="METHOD_NAME" value="openLoginPageTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SelenideTest.openLoginPageTest" />
+        <item itemvalue="TestNG.SelenideTest.openLoginPageTest1" />
         <item itemvalue="TestNG.SelenideTest" />
+        <item itemvalue="TestNG.SelenideTest.openLoginPageTest" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.incorrectUserTest" />
-        <item itemvalue="TestNG.CheckoutTest.successCheckoutTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670442496368</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Develop">
+      <created>1671559340743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671559340744</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

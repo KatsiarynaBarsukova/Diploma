@@ -4,12 +4,10 @@ import baseEntities.BaseTest;
 import com.codeborne.selenide.*;
 import configuration.ReadProperties;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DashboardPage;
 import steps.LoginStep;
 
-import java.time.Duration;
 
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.*;
@@ -59,11 +57,11 @@ public class SelenideTest extends BaseTest {
         dashboardPage.getHeaderTitleLabel().shouldBe(visible);
         dashboardPage.isHeaderTitleLabelDisplayed();
 
-        $$("#employees").shouldHave(
+        $$("#employees tbody tr").shouldHave(
                 texts(
-                        "Alex Trostyanko",
-                        "Ivan Petrov",
-                        "Maria Gerasimenko"
+                        "John Belushi",
+                        "Bruce Willis",
+                        "John Malkovich"
                 )
         );
     }
